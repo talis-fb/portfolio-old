@@ -20,7 +20,7 @@ export default {
   components: { Header, Navbar, Portfolio, About, Education },
   data: function(){
     return {
-      current_page: 2
+      current_page: 3
     }
   },
   methods: {
