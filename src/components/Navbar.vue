@@ -3,8 +3,8 @@
       <ul>
           <li @click="$emit('page',1)" active>Sobre</li>
           <li @click="$emit('page',2)">Formação</li>
-          <li @click="$emit('page',1)">Portfolio</li>
-          <li @click="$emit('page',2)">Contato</li>
+          <li @click="$emit('page',3)">Portfolio</li>
+          <li @click="$emit('page',1)">Contato</li>
       </ul>
   </nav>
 </template>

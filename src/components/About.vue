@@ -36,6 +36,7 @@ export default {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    border-radius: 20px;
 }
 .about .topic {
     display: flex;

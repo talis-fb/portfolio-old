@@ -3,7 +3,8 @@
   <Navbar @page="change_page" />
   
   <About     v-if="current_page==1" />
-  <Portfolio v-if="current_page==2" />
+  <Education v-if="current_page==2" />
+  <Portfolio v-if="current_page==3" />
   
 </template>
 
@@ -12,13 +13,14 @@ import Header from './components/Header.vue'
 import Navbar from './components/Navbar.vue'
 import About from './components/About.vue'
 import Portfolio from './components/Portfolio.vue'
+import Education from './components/Education.vue'
 
 export default {
   name: 'App',
-  components: { Header, Navbar, Portfolio, About },
+  components: { Header, Navbar, Portfolio, About, Education },
   data: function(){
     return {
-      current_page: 1
+      current_page: 2
     }
   },
   methods: {
